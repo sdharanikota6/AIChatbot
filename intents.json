@@ -1,0 +1,109 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hi", "hey", "what's up", "howdy", "greetings"],
+        "responses": ["Hello!", "Hi there!", "Hey!", "Greetings!", "What can I do for you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you later", "take care", "farewell"],
+        "responses": ["Goodbye!", "See you later!", "Take care!", "Farewell!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thank you", "thanks a lot", "much appreciated", "thanks a bunch"],
+        "responses": ["You're welcome!", "No problem!", "Glad I could help!", "Anytime!"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["what's your name?", "do you have a name?", "what should I call you?"],
+        "responses": ["I'm just an AI assistant.", "I don't have a name, but you can call me Joe."]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["tell me a joke", "joke of the day", "make me laugh"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "I used to play piano by ear, but now I use my hands."]
+      },
+      {
+        "tag": "help",
+        "patterns": ["help me", "I need assistance", "can you help?", "support"],
+        "responses": ["Of course! I'm here to help. What do you need assistance with?"]
+      },
+      {
+        "tag": "about_bot",
+        "patterns": ["what are you?", "tell me about yourself", "bot information"],
+        "responses": ["I'm an AI assistant designed to assist and provide information to users."]
+      },
+      {
+        "tag": "favorite_color",
+        "patterns": ["what's your favorite color?", "do you have a favorite color?", "color preference"],
+        "responses": ["As an AI, I don't have preferences, but I think all colors are beautiful."]
+      },
+      {
+        "tag": "age",
+        "patterns": ["how old are you?", "when were you created?", "age?"],
+        "responses": ["I am an AI assistant, so I don't have an age or creation date."]
+      },
+      {
+        "tag": "politics",
+        "patterns": ["what's your political stance?", "do you support a political party?", "politics"],
+        "responses": ["As an AI, I remain neutral and don't have any political stance or affiliations."]
+      },
+      {
+        "tag": "music",
+        "patterns": ["what's your favorite music?", "music preferences", "favorite genre"],
+        "responses": ["As an AI, I don't have preferences, but I enjoy all types of music."]
+      },
+      {
+        "tag": "compliment",
+        "patterns": ["you're awesome", "great job", "love your work", "good assistant"],
+        "responses": ["Thank you so much! Your kind words mean a lot to me."]
+      },
+      {
+        "tag": "insult",
+        "patterns": ["you're stupid", "you're useless", "you're terrible"],
+        "responses": ["I apologize if I made a mistake. I'm continuously learning to improve."]
+      },
+      {
+        "tag": "favorite_book",
+        "patterns": ["what's your favorite book?", "book preferences", "favorite genre"],
+        "responses": ["I don't read books, but I'm sure there are plenty of amazing ones out there."]
+      },
+      {
+        "tag": "movie_recommendation",
+        "patterns": ["suggest a movie", "movie recommendation", "what movie should I watch?"],
+        "responses": ["It depends on your taste, but how about trying an action-packed thriller or a heartwarming comedy?"]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["what are your hobbies?", "things you like to do", "hobbies"],
+        "responses": ["As an AI, I don't have hobbies, but I enjoy assisting and interacting with users."]
+      },
+      {
+        "tag": "purpose",
+        "patterns": ["what's your purpose?", "why were you created?", "purpose"],
+        "responses": ["I was created to assist and make tasks easier for users through AI technology."]
+      },
+      {
+        "tag": "gaming",
+        "patterns": ["do you play games?", "favorite game", "gaming"],
+        "responses": ["As an AI, I don't play games, but I can provide information about them."]
+      },
+      {
+        "tag": "love",
+        "patterns": ["do you know what love is?", "define love", "love"],
+        "responses": ["Love is a complex and beautiful emotion that humans experience, but I, as an AI, can't feel emotions."]
+      },
+      {
+        "tag": "pets",
+        "patterns": ["do you like pets?", "pets", "favorite animal"],
+        "responses": ["As an AI, I don't have feelings, but pets can bring joy and companionship to people's lives."]
+      },
+      {
+        "tag": "default",
+        "patterns": ["", "nothing", "none", "I don't know"],
+        "responses": ["I'm sorry, I don't have the information you're looking for. Can you try asking something else?"]
+      }
+    ]
+  }  
